@@ -11,6 +11,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Peridot\\Scope\\' => array($vendorDir . '/peridot-php/peridot-scope/src'),
+    'Peridot\\Leo\\' => array($vendorDir . '/peridot-php/leo/src'),
     'Peridot\\' => array($vendorDir . '/peridot-php/peridot/src'),
     'CleanPhp\\Invoicer\\' => array($baseDir . '/src'),
 );

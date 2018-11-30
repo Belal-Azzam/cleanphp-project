@@ -8,6 +8,7 @@ class ComposerStaticInitaa51012c5f34e72bb341cf53f408cac6
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'ee4cee3195e093bfc91e7754af9eefd5' => __DIR__ . '/..' . '/peridot-php/leo/src/Interfaces/_interface.bdd.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -21,6 +22,7 @@ class ComposerStaticInitaa51012c5f34e72bb341cf53f408cac6
         array (
             'Psr\\Log\\' => 8,
             'Peridot\\Scope\\' => 14,
+            'Peridot\\Leo\\' => 12,
             'Peridot\\' => 8,
         ),
         'C' => 
@@ -49,6 +51,10 @@ class ComposerStaticInitaa51012c5f34e72bb341cf53f408cac6
         'Peridot\\Scope\\' => 
         array (
             0 => __DIR__ . '/..' . '/peridot-php/peridot-scope/src',
+        ),
+        'Peridot\\Leo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/peridot-php/leo/src',
         ),
         'Peridot\\' => 
         array (
